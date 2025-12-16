@@ -33,19 +33,16 @@ Equipes<br>* `GET /api/equipes/` - Lista equipes.<br>* `POST /api/equipes/` - Cr
 
 ###
 
-
 ```mermaid
 erDiagram
-    PROJETO ||--|{ EQUIPE : possui
-    PROJETO }|--|{ USER : "tem participantes"
-    EQUIPE }|--|{ USER : "tem membros"
-    EQUIPE ||--|| USER : "tem lider (1:1)"
+    PROJETO ||--|{ EQUIPE : tem
+    PROJETO }|--|{ USER : participa
+    EQUIPE }|--|{ USER : membros
+    EQUIPE ||--|| USER : lider
 
     PROJETO {
         string titulo
         string status
-        date data_inicio
-        date data_fim
     }
     EQUIPE {
         string nome
@@ -55,4 +52,3 @@ erDiagram
         string username
         string email
     }
-```
