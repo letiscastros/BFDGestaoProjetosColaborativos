@@ -32,23 +32,3 @@ Equipes<br>* `GET /api/equipes/` - Lista equipes.<br>* `POST /api/equipes/` - Cr
 </div>
 
 ###
-
-```mermaid
-erDiagram
-    PROJETO ||--|{ EQUIPE : tem
-    PROJETO }|--|{ USER : participa
-    EQUIPE }|--|{ USER : membros
-    EQUIPE ||--|| USER : lider
-
-    PROJETO {
-        string titulo
-        string status
-    }
-    EQUIPE {
-        string nome
-        text descricao
-    }
-    USER {
-        string username
-        string email
-    }
