@@ -21,7 +21,7 @@
 
 ###
 
-<h5 align="left">Nosso projeto foi realizado como atividade final do curso de Desenvolvimento Back-end em Python e Django, ofertado pela Bolsa Futuro Digital, no Instituto Federal de Brasília - Campus Gama.<br><br>Letícia Castro de Souza<br>Beatriz Rodrigues<br>Anne Karoline Sá<br>Eduardo Alves Ferreira</h5>
+<h5 align="left">Nosso projeto foi realizado como atividade final do curso de Desenvolvimento Back-end em Python e Django, ofertado pela Bolsa Futuro Digital, no Instituto Federal de Brasília - Campus Gama.<br><br>Letícia Castro de Souza<br>Beatriz Rodrigues<br>Anne Karoline Sá<br></h5>
 
 ###
 
