@@ -1,7 +1,7 @@
 from django.contrib import admin
 from .models import Projeto, Equipe
 
-# Configuração bonita para o Projeto
+# Configuração para o Projeto
 @admin.register(Projeto)
 class ProjetoAdmin(admin.ModelAdmin):
     list_display = ('titulo', 'cliente', 'status', 'data_inicio')
